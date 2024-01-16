@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Dice from './icon-dice.svg';
+import Separator from './pattern-divider-mobile.svg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main className='MainContainer'>
+        <header className='AdviceNumber'>advice #69</header>
+        <main className='AdviceText'>"actual advice"</main>
+        <img className='Separator' src={Separator} alt=''></img>
+        <button className='NewAdviceButton'>
+          <img src={Dice} alt=''></img>
+        </button>
+      </main>
     </div>
   );
 }
