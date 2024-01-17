@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <main className='MainContainer'>
         <header className='AdviceNumber'>advice #69</header>
-        <main className='AdviceText'>"actual advice"</main>
+        <main className='AdviceText'>"It is easy to sit up and take notice, what’s difficult is getting up and taking action"</main>
         <img className='Separator' src={Separator} alt=''></img>
         <button className='NewAdviceButton'>
           <img src={Dice} alt=''></img>

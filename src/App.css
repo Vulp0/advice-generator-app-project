@@ -20,12 +20,24 @@
 
 .AdviceNumber {
   color: #52FFA8;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .AdviceText, .Separator {
   color: #CEE3E9;
+  font-size: 2.2rem;
 }
 
-.Separator {
-  width: 100%;
+.NewAdviceButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 100%;
+  background-color: #52FFA8;
+  width: 70px;
+  height: 70px;
+  position: relative;
 }
