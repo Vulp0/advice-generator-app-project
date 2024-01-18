@@ -16,18 +16,30 @@
   width: 90%;
   min-width: 12rem;
   max-width: 48rem;
+  border-radius: 16px;
+  padding: 32px 0px;
 }
 
 .AdviceNumber {
   color: #52FFA8;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 4px;
+  margin-bottom: 16px;
+}
+
+.AdviceText {
+  width: 80%;
+  margin-bottom: 32px;
 }
 
 .AdviceText, .Separator {
   color: #CEE3E9;
   font-size: 2.2rem;
+}
+
+.Separator {
+  margin-bottom: 32px;
 }
 
 .NewAdviceButton {
@@ -39,5 +51,6 @@
   background-color: #52FFA8;
   width: 70px;
   height: 70px;
-  position: relative;
+  position: absolute;
+  bottom: 9rem;
 }
