@@ -39,7 +39,7 @@
 }
 
 .Separator {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .NewAdviceButton {
@@ -51,6 +51,5 @@
   background-color: #52FFA8;
   width: 70px;
   height: 70px;
-  position: absolute;
-  bottom: 9rem;
+  position: relative;
 }
