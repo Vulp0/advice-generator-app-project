@@ -18,10 +18,10 @@ function App() {
     }
     
   return (
-    <div className="App">
+    <div className="App" onLoad={updateText}>
       <main className='MainContainer'>
-        <header className='AdviceNumber'>advice #{69}</header>
-        <main className='AdviceText'>"{"It is easy to sit up and take notice, what’s difficult is getting up and taking action"}"</main>
+        <header className='AdviceNumber'>getting new advice...</header>
+        <main className='AdviceText'>...</main>
         <img className='Separator' src={Separator} alt=''></img>
         <button className='NewAdviceButton' onClick={updateText}>
           <img src={Dice} alt=''></img>
