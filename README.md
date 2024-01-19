@@ -40,4 +40,4 @@ Users should be able to:
 
 ### Useful resources
 
-- [CSSmatic box shadow generator](https://vulp0.github.io/advice-generator-app-project/) - Used this site to make the button shadow
+- [CSSmatic box shadow generator](https://www.cssmatic.com/box-shadow) - Used this site to make the button shadow
